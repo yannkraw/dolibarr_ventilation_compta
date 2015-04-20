@@ -24,6 +24,7 @@ Modelcsv=Model of export
 Selectmodelcsv=Select a model of export
 Modelcsv_normal=Classic export
 Modelcsv_CEGID=Export towards CEGID Expert
+Eli2p=Export for Eli2p
 BackToChartofaccounts=Return chart of accounts
 
 Definechartofaccounts=Define a chart of accounts
@@ -79,7 +80,7 @@ ACCOUNTINGEX_LIST_SORT_VENTILATION_TODO=Begin the sorting of the pages of ventil
 ACCOUNTINGEX_LIST_SORT_VENTILATION_DONE=Begin the sorting of the pages of ventilation "Ventilated" by the most recent elements
 
 AccountLength=Length of the accounting accounts shown in Dolibarr
-AccountLengthDesc=Function allowing to feign a length of accounting account by replacing spaces by the zero figure. This function touches only the display, it does not modify the accounting accounts registered in Dolibarr. For the export, this function is necessary to be compatible with certain software.  
+AccountLengthDesc=Function allowing to feign a length of accounting account by replacing spaces by the zero figure. This function touches only the display, it does not modify the accounting accounts registered in Dolibarr. For the export, this function is necessary to be compatible with certain software.
 ACCOUNTINGEX_LENGTH_GACCOUNT=Length of the general accounts
 ACCOUNTINGEX_LENGTH_AACCOUNT=Length of the third party accounts
 
@@ -117,7 +118,7 @@ PurchasesJournal=Purchases journal
 DescSellsJournal=Sells journal
 DescPurchasesJournal=Purchases journal
 BankJournal=Bank journal
-DescBankJournal=Banl journal including all the types of payments other than cash	
+DescBankJournal=Banl journal including all the types of payments other than cash
 CashJournal=Cash journal
 DescCashJournal=Cash journal including the type of payment cash
 
@@ -174,7 +175,7 @@ supplier_invoice=Supplier invoice
 GroupByAccount=Group invoice record
 
 ACCOUNTINGEX_EXP_DATE=Format export date
-ACCOUNTINGEX_EXP_GLOBAL_ACCOUNT=Collect account 
+ACCOUNTINGEX_EXP_GLOBAL_ACCOUNT=Collect account
 ACCOUNTINGEX_EXP_LABEL=Choose description
 ACCOUNTINGEX_EXP_AMOUNT=Show amount/sens ou debit/credit
 ACCOUNTINGEXP_EXP_DEVISE=Show devise

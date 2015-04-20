@@ -34,7 +34,7 @@ if (! $res && file_exists("../../../main.inc.php"))
 	$res = @include ("../../../main.inc.php");
 if (! $res)
 	die("Include of main fails");
-	
+
 // Class
 dol_include_once("/core/lib/admin.lib.php");
 dol_include_once("/accountingex/core/lib/account.lib.php");
@@ -68,26 +68,26 @@ $list = array (
  */
 if ($action == 'update') {
 	$error = 0;
-	
+
 	$modelcsv = GETPOST('modelcsv', 'int');
-	
+
 	if (! empty($modelcsv)) {
-		
+
 		if (! dolibarr_set_const($db, 'ACCOUNTINGEX_MODELCSV', $modelcsv, 'chaine', 0, '', $conf->entity)) {
 			$error ++;
 		}
 	} else {
 		$error ++;
 	}
-	
+
 	foreach ( $list as $constname ) {
 		$constvalue = GETPOST($constname, 'alpha');
-		
+
 		if (! dolibarr_set_const($db, $constname, $constvalue, 'chaine', 0, '', $conf->entity)) {
 			$error ++;
 		}
 	}
-	
+
 	if (! $error) {
 		setEventMessage($langs->trans("SetupSaved"));
 	} else {
@@ -136,6 +136,7 @@ else
 	$listmodelcsv=array(
 		'1'=>$langs->trans("Modelcsv_normal"),
 		'2'=>$langs->trans("Modelcsv_CEGID"),
+		'3'=>$langs->trans("Eli2p")
 	);
 	print $form->selectarray("modelcsv",$listmodelcsv,$conf->global->ACCOUNTINGEX_MODELCSV,0);
 	print '</td>';
@@ -161,13 +162,13 @@ if ($num) {
 
 foreach ( $list as $key ) {
 	$var = ! $var;
-	
+
 	print '<tr ' . $bc[$var] . ' class="value">';
-	
+
 	// Param
 	$label = $langs->trans($key);
 	print '<td width="50%">' . $label . '</td>';
-	
+
 	// Value
 	print '<td>';
 	print '<input type="text" size="20" name="' . $key . '" value="' . $conf->global->$key . '">';

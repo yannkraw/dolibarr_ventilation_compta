@@ -24,6 +24,7 @@ Modelcsv=Modèle d'export
 Selectmodelcsv=Sélectionnez un modèle d'export
 Modelcsv_normal=Export classique
 Modelcsv_CEGID=Export vers CEGID Expert
+Eli2p=Export pour Eli2p
 BackToChartofaccounts=Retour plan comptable
 
 Definechartofaccounts=Définir un plan comptable
@@ -79,7 +80,7 @@ ACCOUNTINGEX_LIST_SORT_VENTILATION_TODO=Commencer le tri des pages de ventilatio
 ACCOUNTINGEX_LIST_SORT_VENTILATION_DONE=Commencer le tri des pages de ventilation "Ventilées" par les éléments les plus récents
 
 AccountLength=Longueur des comptes comptables affichés dans Dolibarr
-AccountLengthDesc=Fonction permettant de simuler une longueur de compte comptable en remplaçant les espaces par le chiffre zéro. Cette fonction touche uniquement à l'affichage, elle ne modifie pas les comptes comptables enregistrés dans Dolibarr. Pour l'export, cette fonction est nécessaire pour être compatible avec certains logiciels.  
+AccountLengthDesc=Fonction permettant de simuler une longueur de compte comptable en remplaçant les espaces par le chiffre zéro. Cette fonction touche uniquement à l'affichage, elle ne modifie pas les comptes comptables enregistrés dans Dolibarr. Pour l'export, cette fonction est nécessaire pour être compatible avec certains logiciels.
 ACCOUNTINGEX_LENGTH_GACCOUNT=Longueur des comptes généraux
 ACCOUNTINGEX_LENGTH_AACCOUNT=Longueur des comptes tiers
 
@@ -117,7 +118,7 @@ PurchasesJournal=Journal des achats
 DescSellsJournal=Journal des ventes
 DescPurchasesJournal=Journal des achats
 BankJournal=Journal de banque
-DescBankJournal=Journal de banque comprenant tous les types de règlements autres que espèce			
+DescBankJournal=Journal de banque comprenant tous les types de règlements autres que espèce
 CashJournal=Journal de caisse
 DescCashJournal=Journal de caisse comprenant le type de règlement "espèce"
 
@@ -174,7 +175,7 @@ supplier_invoice=Facture fournisseur
 GroupByAccount=Grouper les écritures de compte
 
 ACCOUNTINGEX_EXP_DATE=Format de la date d'export
-ACCOUNTINGEX_EXP_GLOBAL_ACCOUNT=Afficher un compte collectif 
+ACCOUNTINGEX_EXP_GLOBAL_ACCOUNT=Afficher un compte collectif
 ACCOUNTINGEX_EXP_LABEL=Choisir la description
 ACCOUNTINGEX_EXP_AMOUNT=Afficher montant/sens ou debit/credit
 ACCOUNTINGEXP_EXP_DEVISE=Afficher devise
